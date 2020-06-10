@@ -1,0 +1,98 @@
+img{
+    border: 2px solid silver;
+    width: 200;
+    height: 300px;
+    float: left;
+
+}
+nav ul{
+    list-style: name;
+}
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color:white ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px;
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+body{
+    background: silver;
+    font:24px Helvetica;
+}
+#main{
+    min-height: 800px;
+    margin: 8px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+}
+#main article{
+    margin: 4px;
+    padding: 5px;
+    border-radius: 1px solid blueviolet;
+    border-radius: 7px;
+    background: burlywood;
+    flex:3 1 60%;
+    order: 2;
+}
+
+.azorin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid coral;
+    border-top: mediumorchid;
+    padding: 2px;
+}
+#main nav{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid mediumorchid;
+    border-radius: 7px;
+    background:moccasin;
+    flex:20%;
+    order: 1;
+}
+#main.cuadro p{
+    width: 300px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding:12px;
+    float:letf;
+    text-align:center;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    justify-content:center ;
+    background-color: silver;
+    min-height:20px;
+    height: 40px;
+    text-align: center;
+}
+#main aside{
+    margin:4px ;
+    padding:5px ;
+    border:1px solid brown ;
+    border-radius: 7px;
+    background: burlywood;
+    flex: 1 6 20%;
+    order:3;
+}
+header, footer{
+    display:block;
+    margin: 4px;
+    padding:5px;
+    min-height: 100px;
+    border:1 px solid black;
+    border-radius:7px;
+    background: burlywood;
+}
